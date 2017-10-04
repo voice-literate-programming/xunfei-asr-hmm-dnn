@@ -13,11 +13,18 @@
       - [高斯混合模型(GMM)](#%E9%AB%98%E6%96%AF%E6%B7%B7%E5%90%88%E6%A8%A1%E5%9E%8Bgmm)
       - [深度神经网络(DNN)](#%E6%B7%B1%E5%BA%A6%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9Cdnn)
   - [基于深度神经网络的语音识别系统](#%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9A%84%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB%E7%B3%BB%E7%BB%9F)
+      - [语音识别相关的技术--只不过是个名称罢了](#%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB%E7%9B%B8%E5%85%B3%E7%9A%84%E6%8A%80%E6%9C%AF--%E5%8F%AA%E4%B8%8D%E8%BF%87%E6%98%AF%E4%B8%AA%E5%90%8D%E7%A7%B0%E7%BD%A2%E4%BA%86)
+        - [传统的基于GMM-HMM的语音识别系统](#%E4%BC%A0%E7%BB%9F%E7%9A%84%E5%9F%BA%E4%BA%8Egmm-hmm%E7%9A%84%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB%E7%B3%BB%E7%BB%9F)
+        - [前馈型深度神经网络(Feedforward Deep Neural Network, FDNN)](#%E5%89%8D%E9%A6%88%E5%9E%8B%E6%B7%B1%E5%BA%A6%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9Cfeedforward-deep-neural-network-fdnn)
+        - [递归神经网络(Recurrent Neural Network, RNN)](#%E9%80%92%E5%BD%92%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9Crecurrent-neural-network-rnn)
+        - [长短时记忆模块(Long-Short Term Memory, LSTM)](#%E9%95%BF%E7%9F%AD%E6%97%B6%E8%AE%B0%E5%BF%86%E6%A8%A1%E5%9D%97long-short-term-memory-lstm)
+        - [序列短时分类(Connectionist Temporal Classification, CTC)](#%E5%BA%8F%E5%88%97%E7%9F%AD%E6%97%B6%E5%88%86%E7%B1%BBconnectionist-temporal-classification-ctc)
     - [科大讯飞最新语音识别系统](#%E7%A7%91%E5%A4%A7%E8%AE%AF%E9%A3%9E%E6%9C%80%E6%96%B0%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB%E7%B3%BB%E7%BB%9F)
     - [讯飞FSMN语音识别框架](#%E8%AE%AF%E9%A3%9Efsmn%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB%E6%A1%86%E6%9E%B6)
     - [科大讯飞DFCNN语音识别框架](#%E7%A7%91%E5%A4%A7%E8%AE%AF%E9%A3%9Edfcnn%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB%E6%A1%86%E6%9E%B6)
   - [深度学习平台](#%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%B9%B3%E5%8F%B0)
   - [写在最后](#%E5%86%99%E5%9C%A8%E6%9C%80%E5%90%8E)
+
 
 
 
@@ -47,11 +54,14 @@
 关键突破起始于2006年。这一年辛顿（Hinton）提出深度置信网络（DBN），促使了深度神经网络（Deep Neural Network，DNN）研究的复苏，掀起了深度学习的热潮。2009年，辛顿以及他的学生默罕默德（D. Mohamed）将深度神经网络应用于语音的声学建模，在小词汇量连续语音识别数据库TIMIT上获得成功。2011年，微软研究院俞栋、邓力等发表深度神经网络在语音识别上的应用文章，在大词汇量连续语音识别任务上获得突破。从此基于GMM-HMM的语音识别框架被打破，大量研究人员开始转向基于DNN-HMM的语音识别系统的研究。
 
 ### 语音识别相关的技术
+
 #### 隐马尔科夫模型(HMM)
+
 #### 高斯混合模型(GMM)
 * 一种聚类的方法
 * GMM和k-means其实是十分相似的，区别仅仅在于对GMM来说，我们引入了概率
 * [用K均值聚类探寻青少年市场细分](https://github.com/chanshunli/jim-emacs-fun-r-lisp/blob/master/kmeans.R)
+
 #### 深度神经网络(DNN)
 
 ## 基于深度神经网络的语音识别系统
@@ -78,6 +88,13 @@ DNN相比GMM的优势在于：
 ![干货：科大讯飞最新语音识别系统和框架深度剖析][3]
 
 图3 基于RNN——CTC的主流语音识别系统框架
+
+#### 语音识别相关的技术--只不过是个名称罢了
+##### 传统的基于GMM-HMM的语音识别系统
+##### 前馈型深度神经网络(Feedforward Deep Neural Network, FDNN)
+##### 递归神经网络(Recurrent Neural Network, RNN)
+##### 长短时记忆模块(Long-Short Term Memory, LSTM)
+##### 序列短时分类(Connectionist Temporal Classification, CTC)
 
 ### 科大讯飞最新语音识别系统
 
