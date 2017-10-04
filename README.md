@@ -1,4 +1,4 @@
-[Source](https://www.leiphone.com/news/201608/4HJoePG2oQfGpoj2.html "Permalink to 干货：科大讯飞最新语音识别系统和框架深度剖析 | 雷锋网")
+[声明:本文仅是个人学习用途,无任何商业目的](https://www.leiphone.com/news/201608/4HJoePG2oQfGpoj2.html "Permalink to 干货：科大讯飞最新语音识别系统和框架深度剖析 | 雷锋网")
 
 # 干货：科大讯飞最新语音识别系统和框架深度剖析 | 雷锋网
 
@@ -89,10 +89,6 @@ DFCNN的结构如图5所示，它直接将一句语音转化成一张图像作�
 ## 写在最后
 
 回顾语音识别的发展历史和科大讯飞语音识别系统的最新进展后，我们可以发现，技术的突破总是艰难而缓慢的，重要的是坚持和不断思考。虽然近几年深度神经网络的兴起使得语音识别性能获得了极大的提升，但是我们并不能迷信于现有的技术，总有一天新技术的提出会替代现有的技术，科大讯飞希望可以通过不断的技术创新实现语音识别技术的进一步突破。
-
-雷锋网注：本文由CSDN授权雷锋网(公众号：雷锋网)转载，如需转载请联系原作者。 
-
-雷锋网原创文章，未经授权禁止转载。详情见[转载须知][7]。
 
 [1]: https://static.leiphone.com/uploads/new/article/740_740/201608/57be8e878815d.png?imageMogr2/format/jpg/quality/90
 [2]: https://static.leiphone.com/uploads/new/article/740_740/201608/57be8e89192ad.png?imageMogr2/format/jpg/quality/90
