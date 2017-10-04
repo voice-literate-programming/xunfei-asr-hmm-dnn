@@ -51,6 +51,7 @@
 #### 高斯混合模型(GMM)
 * 一种聚类的方法
 * GMM和k-means其实是十分相似的，区别仅仅在于对GMM来说，我们引入了概率
+* [用K均值聚类探寻青少年市场细分](https://github.com/chanshunli/jim-emacs-fun-r-lisp/blob/master/kmeans.R)
 #### 深度神经网络(DNN)
 
 ## 基于深度神经网络的语音识别系统
