@@ -1,3 +1,18 @@
+
+
+
+
+- [干货：科大讯飞最新语音识别系统和框架深度剖析 | 雷锋网](#%E5%B9%B2%E8%B4%A7%E7%A7%91%E5%A4%A7%E8%AE%AF%E9%A3%9E%E6%9C%80%E6%96%B0%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB%E7%B3%BB%E7%BB%9F%E5%92%8C%E6%A1%86%E6%9E%B6%E6%B7%B1%E5%BA%A6%E5%89%96%E6%9E%90--%E9%9B%B7%E9%94%8B%E7%BD%91)
+  - [语音识别关键突破回顾](#%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB%E5%85%B3%E9%94%AE%E7%AA%81%E7%A0%B4%E5%9B%9E%E9%A1%BE)
+  - [基于深度神经网络的语音识别系统](#%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9A%84%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB%E7%B3%BB%E7%BB%9F)
+    - [科大讯飞最新语音识别系统](#%E7%A7%91%E5%A4%A7%E8%AE%AF%E9%A3%9E%E6%9C%80%E6%96%B0%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB%E7%B3%BB%E7%BB%9F)
+    - [讯飞FSMN语音识别框架](#%E8%AE%AF%E9%A3%9Efsmn%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB%E6%A1%86%E6%9E%B6)
+    - [科大讯飞DFCNN语音识别框架](#%E7%A7%91%E5%A4%A7%E8%AE%AF%E9%A3%9Edfcnn%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB%E6%A1%86%E6%9E%B6)
+  - [深度学习平台](#%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%B9%B3%E5%8F%B0)
+  - [写在最后](#%E5%86%99%E5%9C%A8%E6%9C%80%E5%90%8E)
+
+
+
 [声明:本文仅是个人学习用途,无任何商业目的](https://www.leiphone.com/news/201608/4HJoePG2oQfGpoj2.html "Permalink to 干货：科大讯飞最新语音识别系统和框架深度剖析 | 雷锋网")
 
 # 干货：科大讯飞最新语音识别系统和框架深度剖析 | 雷锋网
